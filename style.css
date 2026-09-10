@@ -309,22 +309,6 @@ footer p {
     font-size: 13px;
 }
 
-
-/* RESPONSIVIDADE */
-
-@media (max-width: 900px) {
-
-    .cards {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .sobre {
-        grid-template-columns: 1fr;
-    }
-
-}
-
-
 .menu-mobile{ 
     display: none;
 
@@ -343,6 +327,21 @@ footer p {
     height: 3px;
     margin-bottom: 5px 0;
     background-color: white;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px) {
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sobre {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media (max-width: 600px) {
