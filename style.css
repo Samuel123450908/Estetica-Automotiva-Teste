@@ -325,14 +325,32 @@ footer p {
 }
 
 
+.menu-mobile{ 
+    display: none;
+
+    background: none;
+    border: none;
+
+    color:white;
+    font-size: 30px;
+
+    cursor: pointer;
+}
+
+.menu-mobile span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 5px 0;
+    background-color: white;
+}
+
 @media (max-width: 600px) {
 
     header {
         padding: 0 5%;
     }
-    .menu-mobile{
-        display: block;
-    }
+    
     nav {
         display: none;
         position: absolute;
@@ -380,15 +398,4 @@ footer p {
         text-align: center;
     }
 
-}
-.menu-mobile{ 
-    display: none;
-
-    background: none;
-    border: none;
-
-    color:white;
-    font-size: 30px;
-
-    cursor: pointer;
 }
